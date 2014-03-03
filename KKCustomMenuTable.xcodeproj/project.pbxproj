@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		357A751118C4C8180047B528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357A751018C4C8180047B528 /* Foundation.framework */; };
+		357A751318C4C8180047B528 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357A751218C4C8180047B528 /* CoreGraphics.framework */; };
+		357A751518C4C8180047B528 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357A751418C4C8180047B528 /* UIKit.framework */; };
+		357A751B18C4C8180047B528 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 357A751918C4C8180047B528 /* InfoPlist.strings */; };
+		357A751D18C4C8180047B528 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 357A751C18C4C8180047B528 /* main.m */; };
+		357A752118C4C8180047B528 /* kkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 357A752018C4C8180047B528 /* kkAppDelegate.m */; };
+		357A752418C4C8180047B528 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357A752218C4C8180047B528 /* Main_iPhone.storyboard */; };
+		357A752718C4C8180047B528 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357A752518C4C8180047B528 /* Main_iPad.storyboard */; };
+		357A752A18C4C8180047B528 /* kkMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 357A752918C4C8180047B528 /* kkMasterViewController.m */; };
+		357A752D18C4C8180047B528 /* kkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 357A752C18C4C8180047B528 /* kkDetailViewController.m */; };
+		357A752F18C4C8180047B528 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357A752E18C4C8180047B528 /* Images.xcassets */; };
+		357A753618C4C8180047B528 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357A753518C4C8180047B528 /* XCTest.framework */; };
+		357A753718C4C8180047B528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357A751018C4C8180047B528 /* Foundation.framework */; };
+		357A753818C4C8180047B528 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357A751418C4C8180047B528 /* UIKit.framework */; };
+		357A754018C4C8180047B528 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 357A753E18C4C8180047B528 /* InfoPlist.strings */; };
+		357A754218C4C8180047B528 /* KKCustomMenuTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 357A754118C4C8180047B528 /* KKCustomMenuTableTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		357A753918C4C8180047B528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 357A750518C4C8180047B528 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 357A750C18C4C8180047B528;
+			remoteInfo = KKCustomMenuTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		357A750D18C4C8180047B528 /* KKCustomMenuTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKCustomMenuTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		357A751018C4C8180047B528 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		357A751218C4C8180047B528 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		357A751418C4C8180047B528 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		357A751818C4C8180047B528 /* KKCustomMenuTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KKCustomMenuTable-Info.plist"; sourceTree = "<group>"; };
+		357A751A18C4C8180047B528 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		357A751C18C4C8180047B528 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		357A751E18C4C8180047B528 /* KKCustomMenuTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KKCustomMenuTable-Prefix.pch"; sourceTree = "<group>"; };
+		357A751F18C4C8180047B528 /* kkAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kkAppDelegate.h; sourceTree = "<group>"; };
+		357A752018C4C8180047B528 /* kkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kkAppDelegate.m; sourceTree = "<group>"; };
+		357A752318C4C8180047B528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		357A752618C4C8180047B528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		357A752818C4C8180047B528 /* kkMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kkMasterViewController.h; sourceTree = "<group>"; };
+		357A752918C4C8180047B528 /* kkMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kkMasterViewController.m; sourceTree = "<group>"; };
+		357A752B18C4C8180047B528 /* kkDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kkDetailViewController.h; sourceTree = "<group>"; };
+		357A752C18C4C8180047B528 /* kkDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kkDetailViewController.m; sourceTree = "<group>"; };
+		357A752E18C4C8180047B528 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		357A753418C4C8180047B528 /* KKCustomMenuTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKCustomMenuTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		357A753518C4C8180047B528 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		357A753D18C4C8180047B528 /* KKCustomMenuTableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KKCustomMenuTableTests-Info.plist"; sourceTree = "<group>"; };
+		357A753F18C4C8180047B528 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		357A754118C4C8180047B528 /* KKCustomMenuTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKCustomMenuTableTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		357A750A18C4C8180047B528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357A751318C4C8180047B528 /* CoreGraphics.framework in Frameworks */,
+				357A751518C4C8180047B528 /* UIKit.framework in Frameworks */,
+				357A751118C4C8180047B528 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		357A753118C4C8180047B528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357A753618C4C8180047B528 /* XCTest.framework in Frameworks */,
+				357A753818C4C8180047B528 /* UIKit.framework in Frameworks */,
+				357A753718C4C8180047B528 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		357A750418C4C8180047B528 = {
+			isa = PBXGroup;
+			children = (
+				357A751618C4C8180047B528 /* KKCustomMenuTable */,
+				357A753B18C4C8180047B528 /* KKCustomMenuTableTests */,
+				357A750F18C4C8180047B528 /* Frameworks */,
+				357A750E18C4C8180047B528 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		357A750E18C4C8180047B528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				357A750D18C4C8180047B528 /* KKCustomMenuTable.app */,
+				357A753418C4C8180047B528 /* KKCustomMenuTableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		357A750F18C4C8180047B528 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				357A751018C4C8180047B528 /* Foundation.framework */,
+				357A751218C4C8180047B528 /* CoreGraphics.framework */,
+				357A751418C4C8180047B528 /* UIKit.framework */,
+				357A753518C4C8180047B528 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		357A751618C4C8180047B528 /* KKCustomMenuTable */ = {
+			isa = PBXGroup;
+			children = (
+				357A751F18C4C8180047B528 /* kkAppDelegate.h */,
+				357A752018C4C8180047B528 /* kkAppDelegate.m */,
+				357A752218C4C8180047B528 /* Main_iPhone.storyboard */,
+				357A752518C4C8180047B528 /* Main_iPad.storyboard */,
+				357A752818C4C8180047B528 /* kkMasterViewController.h */,
+				357A752918C4C8180047B528 /* kkMasterViewController.m */,
+				357A752B18C4C8180047B528 /* kkDetailViewController.h */,
+				357A752C18C4C8180047B528 /* kkDetailViewController.m */,
+				357A752E18C4C8180047B528 /* Images.xcassets */,
+				357A751718C4C8180047B528 /* Supporting Files */,
+			);
+			path = KKCustomMenuTable;
+			sourceTree = "<group>";
+		};
+		357A751718C4C8180047B528 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				357A751818C4C8180047B528 /* KKCustomMenuTable-Info.plist */,
+				357A751918C4C8180047B528 /* InfoPlist.strings */,
+				357A751C18C4C8180047B528 /* main.m */,
+				357A751E18C4C8180047B528 /* KKCustomMenuTable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		357A753B18C4C8180047B528 /* KKCustomMenuTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				357A754118C4C8180047B528 /* KKCustomMenuTableTests.m */,
+				357A753C18C4C8180047B528 /* Supporting Files */,
+			);
+			path = KKCustomMenuTableTests;
+			sourceTree = "<group>";
+		};
+		357A753C18C4C8180047B528 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				357A753D18C4C8180047B528 /* KKCustomMenuTableTests-Info.plist */,
+				357A753E18C4C8180047B528 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		357A750C18C4C8180047B528 /* KKCustomMenuTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 357A754518C4C8180047B528 /* Build configuration list for PBXNativeTarget "KKCustomMenuTable" */;
+			buildPhases = (
+				357A750918C4C8180047B528 /* Sources */,
+				357A750A18C4C8180047B528 /* Frameworks */,
+				357A750B18C4C8180047B528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKCustomMenuTable;
+			productName = KKCustomMenuTable;
+			productReference = 357A750D18C4C8180047B528 /* KKCustomMenuTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		357A753318C4C8180047B528 /* KKCustomMenuTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 357A754818C4C8180047B528 /* Build configuration list for PBXNativeTarget "KKCustomMenuTableTests" */;
+			buildPhases = (
+				357A753018C4C8180047B528 /* Sources */,
+				357A753118C4C8180047B528 /* Frameworks */,
+				357A753218C4C8180047B528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				357A753A18C4C8180047B528 /* PBXTargetDependency */,
+			);
+			name = KKCustomMenuTableTests;
+			productName = KKCustomMenuTableTests;
+			productReference = 357A753418C4C8180047B528 /* KKCustomMenuTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		357A750518C4C8180047B528 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = kk;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Kun;
+				TargetAttributes = {
+					357A753318C4C8180047B528 = {
+						TestTargetID = 357A750C18C4C8180047B528;
+					};
+				};
+			};
+			buildConfigurationList = 357A750818C4C8180047B528 /* Build configuration list for PBXProject "KKCustomMenuTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 357A750418C4C8180047B528;
+			productRefGroup = 357A750E18C4C8180047B528 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				357A750C18C4C8180047B528 /* KKCustomMenuTable */,
+				357A753318C4C8180047B528 /* KKCustomMenuTableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		357A750B18C4C8180047B528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357A752718C4C8180047B528 /* Main_iPad.storyboard in Resources */,
+				357A752F18C4C8180047B528 /* Images.xcassets in Resources */,
+				357A752418C4C8180047B528 /* Main_iPhone.storyboard in Resources */,
+				357A751B18C4C8180047B528 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		357A753218C4C8180047B528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357A754018C4C8180047B528 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		357A750918C4C8180047B528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357A752118C4C8180047B528 /* kkAppDelegate.m in Sources */,
+				357A752A18C4C8180047B528 /* kkMasterViewController.m in Sources */,
+				357A751D18C4C8180047B528 /* main.m in Sources */,
+				357A752D18C4C8180047B528 /* kkDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		357A753018C4C8180047B528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357A754218C4C8180047B528 /* KKCustomMenuTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		357A753A18C4C8180047B528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 357A750C18C4C8180047B528 /* KKCustomMenuTable */;
+			targetProxy = 357A753918C4C8180047B528 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		357A751918C4C8180047B528 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				357A751A18C4C8180047B528 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		357A752218C4C8180047B528 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				357A752318C4C8180047B528 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		357A752518C4C8180047B528 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				357A752618C4C8180047B528 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		357A753E18C4C8180047B528 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				357A753F18C4C8180047B528 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		357A754318C4C8180047B528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		357A754418C4C8180047B528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		357A754618C4C8180047B528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KKCustomMenuTable/KKCustomMenuTable-Prefix.pch";
+				INFOPLIST_FILE = "KKCustomMenuTable/KKCustomMenuTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		357A754718C4C8180047B528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KKCustomMenuTable/KKCustomMenuTable-Prefix.pch";
+				INFOPLIST_FILE = "KKCustomMenuTable/KKCustomMenuTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		357A754918C4C8180047B528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KKCustomMenuTable.app/KKCustomMenuTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KKCustomMenuTable/KKCustomMenuTable-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KKCustomMenuTableTests/KKCustomMenuTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		357A754A18C4C8180047B528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KKCustomMenuTable.app/KKCustomMenuTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KKCustomMenuTable/KKCustomMenuTable-Prefix.pch";
+				INFOPLIST_FILE = "KKCustomMenuTableTests/KKCustomMenuTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		357A750818C4C8180047B528 /* Build configuration list for PBXProject "KKCustomMenuTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				357A754318C4C8180047B528 /* Debug */,
+				357A754418C4C8180047B528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		357A754518C4C8180047B528 /* Build configuration list for PBXNativeTarget "KKCustomMenuTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				357A754618C4C8180047B528 /* Debug */,
+				357A754718C4C8180047B528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		357A754818C4C8180047B528 /* Build configuration list for PBXNativeTarget "KKCustomMenuTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				357A754918C4C8180047B528 /* Debug */,
+				357A754A18C4C8180047B528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 357A750518C4C8180047B528 /* Project object */;
+}
